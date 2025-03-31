@@ -68,6 +68,7 @@ body {
 }
 .solutions{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .headline {
     font-size: 56px;
@@ -75,6 +76,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .button {
     background-color: #4D5AE5;
@@ -85,9 +87,17 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover, .button:focus {
     background-color: #404BBF;
+}
+.features {
+    padding: 120px 0;
 }
 .goals {
     font-weight: 500;
