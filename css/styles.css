@@ -114,7 +114,7 @@ body {
     list-style-type: none;
 }
 .list-goals {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .goals {
     font-weight: 500;
@@ -157,7 +157,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .occupation {
@@ -241,5 +241,4 @@ body {
 }
 .footer-logo-color {
     color: #f4f4fd;
-    margin-bottom: 16px;
 }
