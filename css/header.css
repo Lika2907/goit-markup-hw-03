@@ -1,6 +1,11 @@
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+.default-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-menu {
     display: flex;
     align-items: center;
