@@ -3,7 +3,6 @@
 }
 .default-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .nav-menu {
@@ -40,6 +39,7 @@
 .info {
     font-style: normal;
     font-size: 16px;
+    margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
